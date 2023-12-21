@@ -1,0 +1,36 @@
+.text{
+    background: linear-gradient(to right,rgb(1, 82, 164),#fff 35%,#9b0265);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 4s linear infinite;
+}
+@keyframes gradient{
+    0%{background-position: 0% 75%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 70%;}
+}
+body {
+    font-family: "Arial", sans-serif;
+    background-color: black;
+    color: #fff;
+}
+.title {
+    font-size: 70px;
+    color: #d7a62f;
+    margin: 10px auto;
+}
+    input {
+      width: 40px;
+      text-align: center;
+    }
+    table {
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    div{
+        margin: 25px;
+    }
